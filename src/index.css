@@ -1,13 +1,144 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+img{
+  width:200px;
+  height: 200px;
+  border-radius:5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #e5e5e5;
+  font-family:sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+.details__title{
+  margin-bottom: 10px;
+}
+
+.title_artist{
+display: flex;
+flex-direction: row;
+gap:20px;
+}
+
+.THIRD{
+ 
+    font-family:'Comic Sans MS', cursive;
+    line-height:1em;
+    color:gray;
+    font-weight:bold;
+    font-size:20px;
+    text-shadow:0px 0px 0 rgb(231,231,231),1px -1px 0 rgb(216,216,216),2px -2px 0 rgb(202,202,202),3px -3px 0 rgb(187,187,187),4px -4px 0 rgb(173,173,173),5px -5px 0 rgb(158,158,158), 6px -6px 0 rgb(144,144,144),7px -7px 6px rgba(0,0,0,0.15),7px -7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 47px;
+  position: relative;
+  width:auto;
+  margin-top:6%;
+
+
+}
+
+.component {
+  box-sizing: border-box;
+  border-radius: 47px;
+background: #e0e0e0;
+box-shadow:  19px 19px 34px #696969,
+             -19px -19px 34px #ffffff;
+  width: 25%;
+  max-width: 600px;
+  margin: auto;
+  padding : 1em 5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top:3%;
+}
+
+.musicCover {
+  border-radius: 10%;
+}
+
+.playButton {
+  background: none;
+  color:gray;
+ outline:  none;
+ border: none;
+ cursor: pointer;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+
+.player__audio {
+  background: none;
+ width:300px;
+ margin-bottom:10px;
+ position: relative;
+ right:18%;
+ justify-content:left;
+ align-items:left;
+opacity:0.4;
+}
+
+audio::-webkit-media-controls-play-button{
+  display:none;
+}
+@media (max-width: 450px) {
+  .component {
+    width: 100%;
+    height: 100%;
+  
+  }
+  .title_artist{
+    margin-left:25px;
+  }
+  .player__audio{
+margin-left: 10px;
+  }
+}
+
+
+@media (min-width: 450px) and (max-width:700px) {
+  .component {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .player__audio{
+    margin-left: 25%;
+      }
+      .title_artist{
+        margin-left:25%;
+      }
+}
+
+@media (min-width: 700px) and (max-width:1450px){
+  .component {
+    width: 50%;
+    height: 100%;
+  }
+  .player__audio{
+    margin-left: 25%;
+      }
+      .title_artist{
+        margin-left:25%;
+      }
+}
+
+@media (min-width:14500px){
+  .component {
+    width: 25%;
+  }
+ 
+}
+
+
