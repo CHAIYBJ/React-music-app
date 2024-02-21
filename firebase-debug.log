@@ -1,0 +1,52 @@
+[debug] [2024-02-21T07:44:30.303Z] ----------------------------------------------------------------------
+[debug] [2024-02-21T07:44:30.308Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-21T07:44:30.308Z] CLI Version:   13.2.1
+[debug] [2024-02-21T07:44:30.308Z] Platform:      win32
+[debug] [2024-02-21T07:44:30.309Z] Node Version:  v20.11.0
+[debug] [2024-02-21T07:44:30.309Z] Time:          Tue Feb 20 2024 23:44:30 GMT-0800 (Pacific Standard Time)
+[debug] [2024-02-21T07:44:30.309Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-21T07:44:30.394Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-21T07:44:30.395Z] > authorizing via signed-in user (aderinsolacharles@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Hp\Desktop\react-music-player
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-21T07:46:06.887Z] Using project from CLI flag: netflix-react-cc3e7
+[debug] [2024-02-21T07:46:06.888Z] > refreshing access token with scopes: []
+[debug] [2024-02-21T07:46:06.890Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-21T07:46:06.890Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-21T07:46:07.625Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-02-21T07:46:07.625Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-21T07:46:07.644Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-react-cc3e7 [none]
+[debug] [2024-02-21T07:46:08.436Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-react-cc3e7 200
+[debug] [2024-02-21T07:46:08.436Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-react-cc3e7 {"projectId":"netflix-react-cc3e7","projectNumber":"388220382080","displayName":"Netflix-react","name":"projects/netflix-react-cc3e7","resources":{"hostingSite":"netflix-react-cc3e7"},"state":"ACTIVE","etag":"1_5ffb6097-8993-4af8-8af2-bc38e48a5325"}
+[info] i  Using project netflix-react-cc3e7 (Netflix-react) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-21T07:46:08.445Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-react-cc3e7 [none]
+[debug] [2024-02-21T07:46:08.843Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-react-cc3e7 200
+[debug] [2024-02-21T07:46:08.844Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-react-cc3e7 {"projectId":"netflix-react-cc3e7","projectNumber":"388220382080","displayName":"Netflix-react","name":"projects/netflix-react-cc3e7","resources":{"hostingSite":"netflix-react-cc3e7"},"state":"ACTIVE","etag":"1_5ffb6097-8993-4af8-8af2-bc38e48a5325"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
